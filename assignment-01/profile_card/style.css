@@ -1,0 +1,99 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+}
+
+body{
+    background-color: #E3FEF7;
+}
+
+.profile-container{
+    background-color: #07372F;
+    margin: 140px auto;
+    width: 350px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: 1px solid #77B0AA;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile-container img{
+    width: 100%;
+    height: auto;
+}
+
+.profile-container h2{
+    font-family: "Spectral", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    padding: 20px 10px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.profile-container h3 {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 0px;
+    margin: -15px;
+}
+
+.profile-container p{
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.5;
+    /* text-align: justify; */
+    margin: 30px 25px;
+    color: #fff;
+}
+
+
+.contact {
+        margin-top: 35px;
+        width: 100%;
+        height: 80px;
+}
+
+
+
+.email{
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    float: left;
+    margin-left: 15px;
+    color: #fff;
+    position: relative;
+}
+
+.email::after {
+    content: "";
+    border: 1px solid yellow;
+    width: 0px;
+    height: 18px;
+    position: absolute;
+    right: -20px;
+    top: 2px;
+}
+
+.cell{
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: #fff;
+    float: right;
+    margin-right: 15px;
+}
+
+

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #6c8075;
+}
+
+
+.wrapper{
+    background-color: #ebfff6;
+    width: 600px;
+    margin: 100px auto;
+}
+
+.wrapper h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.inner {
+    margin: 0 155px;
+    width: 450px;
+}
+
+textarea{
+    width: 300px;
+}
+
+button{
+    margin: 100px;
+}
